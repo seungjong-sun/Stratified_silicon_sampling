@@ -13,11 +13,11 @@ model_id = ""
 if sys.argv[3] == '13b':
     model_id="meta.llama2-13b-chat-v1"
     # model_id="meta.llama3-8b-instruct-v1:0"
-    model_name = "llama3_8b"
+    model_name = "llama2_13b"
 if sys.argv[3] == '70b':
     model_id="meta.llama2-70b-chat-v1"
     # model_id="meta.llama3-70b-instruct-v1:0"
-    model_name = "llama3_70b"
+    model_name = "llama2_70b"
 
 
 OUTPUT_FN = "./full_results_2020.pkl"
